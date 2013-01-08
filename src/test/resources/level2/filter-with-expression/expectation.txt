@@ -1,0 +1,5 @@
+line
+Apache Hadoop is an open-source software framework that supports data-intensive distributed 
+on large clusters of commodity hardware. The Hadoop framework transparently provides both 
+reliability and data motion to applications. Hadoop implements a computational paradigm 
+with thousands of computation-independent computers and petabytes of data. Hadoop was derived from 

@@ -1,0 +1,11 @@
+year	party
+1958	Gaullist
+1965	Gaullist
+1969	Gaullist
+1974	Republican
+1981	Socialist
+1988	Socialist
+1995	Gaullist
+2002	Gaullist
+2007	Gaullist
+2012	Socialist

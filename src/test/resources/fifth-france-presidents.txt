@@ -1,0 +1,11 @@
+year	president
+1958	Charles de Gaulle
+1965	Charles de Gaulle
+1969	Georges Pompidou
+1974	Valery Giscard d'Estaing
+1981	Francois Mitterrand
+1988	Francois Mitterrand
+1995	Jacques Chirac
+2002	Jacques Chirac
+2007	Nicolas Sarkozy
+2012	Francois Hollande

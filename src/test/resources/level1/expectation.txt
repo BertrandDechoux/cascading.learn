@@ -1,0 +1,12 @@
+line
+Apache Hadoop is an open-source software framework that supports data-intensive distributed 
+applications, licensed under the Apache v2 license. It supports the running of applications 
+on large clusters of commodity hardware. The Hadoop framework transparently provides both 
+reliability and data motion to applications. Hadoop implements a computational paradigm 
+named map/reduce, where the application is divided into many small fragments of work, each of 
+which may be executed or re-executed on any node in the cluster. In addition, it provides 
+a distributed file system that stores data on the compute nodes, providing very high aggregate 
+bandwidth across the cluster. Both map/reduce and the distributed file system are designed so 
+that node failures are automatically handled by the framework.[1] It enables applications to work 
+with thousands of computation-independent computers and petabytes of data. Hadoop was derived from 
+Google's MapReduce and Google File System (GFS) papers.

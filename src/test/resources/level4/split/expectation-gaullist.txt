@@ -1,0 +1,7 @@
+president	party
+Charles de Gaulle	Gaullist
+Charles de Gaulle	Gaullist
+Georges Pompidou	Gaullist
+Jacques Chirac	Gaullist
+Jacques Chirac	Gaullist
+Nicolas Sarkozy	Gaullist

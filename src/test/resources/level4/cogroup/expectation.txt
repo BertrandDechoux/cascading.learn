@@ -1,0 +1,11 @@
+president	party
+Charles de Gaulle	Gaullist
+Charles de Gaulle	Gaullist
+Georges Pompidou	Gaullist
+Valery Giscard d'Estaing	Republican
+Francois Mitterrand	Socialist
+Francois Mitterrand	Socialist
+Jacques Chirac	Gaullist
+Jacques Chirac	Gaullist
+Nicolas Sarkozy	Gaullist
+Francois Hollande	Socialist

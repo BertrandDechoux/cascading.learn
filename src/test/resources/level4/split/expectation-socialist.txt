@@ -1,0 +1,4 @@
+president	party
+Francois Mitterrand	Socialist
+Francois Mitterrand	Socialist
+Francois Hollande	Socialist
