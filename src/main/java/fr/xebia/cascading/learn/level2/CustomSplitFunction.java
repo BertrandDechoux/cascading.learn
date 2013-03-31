@@ -20,6 +20,7 @@ public class CustomSplitFunction<Context> extends BaseOperation<Context> impleme
 		String line = functionCall.getArguments().getString(0);
 		String word = line; // or not ?
 		functionCall.getOutputCollector().add(new Tuple(word));
+		functionCall.getOutputCollector().add(new Tuple(word));
 	}
 	
 }

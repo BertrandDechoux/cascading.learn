@@ -22,6 +22,10 @@ public class NonLinearDataflow {
 	 * You will need to create (and bind) one Pipe per source.
 	 * You might need to correct the schema in order to match the expected results.
 	 * 
+	 * presidentsSource field(s) : "year","president"
+	 * partiesSource field(s) : "year","party"
+	 * sink field(s) : "president","party"
+	 * 
 	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch03s03.html#N20650
 	 */
 	public static FlowDef cogroup(Tap<?, ?, ?> presidentsSource, Tap<?, ?, ?> partiesSource,
@@ -33,6 +37,11 @@ public class NonLinearDataflow {
 	 * Split the input in order use a different sink for each party. There is no
 	 * specific operator for that, use the same Pipe instance as the parent.
 	 * You will need to create (and bind) one named Pipe per sink.
+	 * 
+	 * source field(s) : "president","party"
+	 * gaullistSink field(s) : "president","party"
+	 * republicanSink field(s) : "president","party"
+	 * socialistSink field(s) : "president","party"
 	 * 
 	 * In a different context, one could use {@link TemplateTap} in order to arrive to a similar results.
 	 * @see http://docs.cascading.org/cascading/2.1/userguide/htmlsingle/#N214FF

@@ -19,7 +19,8 @@ public class BasicSchemaManipulation {
 	 * out of luck. The provided source has also a spam "discardme" field. Use
 	 * {@link Discard} in order to get rid of it.
 	 * 
-	 * discardme, line -> line
+	 * source field(s) : "discardme","line"
+	 * sink field(s) : "line"
 	 * 
 	 * The result file has the names of the fields in the first line.
 	 * 
@@ -32,7 +33,8 @@ public class BasicSchemaManipulation {
 	/**
 	 * Same logic but we want to {@link Retain} only the "line" field.
 	 * 
-	 * donotretainme, line -> line
+	 * input field(s) : "donotretainme", "line"
+	 * output field(s) : "line"
 	 * 
 	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch09s05.html
 	 */
@@ -43,7 +45,8 @@ public class BasicSchemaManipulation {
 	/**
 	 * Bad luck again, the field is badly named "renameme", {@link Rename} it into "line".
 	 * 
-	 * renameme -> line
+	 * source field(s) : "renameme"
+	 * sink field(s) : "line"
 	 * 
 	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch09s04.html
 	 */

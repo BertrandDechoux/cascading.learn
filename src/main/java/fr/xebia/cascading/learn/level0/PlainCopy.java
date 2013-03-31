@@ -16,6 +16,9 @@ public class PlainCopy {
 
 	/**
 	 * A copy is a job with an empty set of operations.
+	 * 
+	 * source field(s) : "line"
+	 * sink field(s) : "line"
 	 */
 	public static FlowDef createFlowDefUsing(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		Pipe pipe = new Pipe("plainCopy");

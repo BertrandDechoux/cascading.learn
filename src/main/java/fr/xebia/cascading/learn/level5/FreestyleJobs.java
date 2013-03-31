@@ -27,6 +27,9 @@ public class FreestyleJobs {
 
 	/**
 	 * Word count is the Hadoop "Hello world" so it should be the first step.
+	 * 
+	 * source field(s) : "line"
+	 * sink field(s) : "word","count"
 	 */
 	public static FlowDef countWordOccurences(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;
@@ -35,6 +38,9 @@ public class FreestyleJobs {
 	/**
 	 * Now, let's try a non trivial job : td-idf. Assume that each line is a
 	 * document.
+	 * 
+	 * source field(s) : "line"
+	 * sink field(s) : "docId","tfidf","word"
 	 * 
 	 * <pre>
 	 * t being a term
