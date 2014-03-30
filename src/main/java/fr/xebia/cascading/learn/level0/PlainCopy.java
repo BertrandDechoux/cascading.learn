@@ -9,8 +9,8 @@ import cascading.tap.Tap;
  * with enough leads about where to look for more information. You will need to
  * complete later levels in order to make the tests pass.
  * 
- * @see http://docs.cascading.org/cascading/2.1/userguide/html/
- * @see http://docs.cascading.org/cascading/2.1/javadoc/
+ * @see http://docs.cascading.org/cascading/2.5/userguide/html/
+ * @see http://docs.cascading.org/cascading/2.5/javadoc/
  */
 public class PlainCopy {
 

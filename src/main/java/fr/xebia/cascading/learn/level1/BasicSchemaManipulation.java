@@ -24,7 +24,7 @@ public class BasicSchemaManipulation {
 	 * 
 	 * The result file has the names of the fields in the first line.
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch09s03.html
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch10s03.html
 	 */
 	public static FlowDef discardField(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;
@@ -36,7 +36,7 @@ public class BasicSchemaManipulation {
 	 * input field(s) : "donotretainme", "line"
 	 * output field(s) : "line"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch09s05.html
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch10s05.html
 	 */
 	public static FlowDef retainField(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;
@@ -48,7 +48,7 @@ public class BasicSchemaManipulation {
 	 * source field(s) : "renameme"
 	 * sink field(s) : "line"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch09s04.html
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch10s04.html
 	 */
 	public static FlowDef renameField(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;

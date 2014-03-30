@@ -26,7 +26,7 @@ public class Reducing {
 	 * source field(s) : "word"
 	 * sink field(s) : "word","count"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch03s03.html#N205C2
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch03s03.html
 	 */
 	public static FlowDef aggregate(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;
@@ -39,7 +39,7 @@ public class Reducing {
 	 * source field(s) : "word"
 	 * sink field(s) : "word","count"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch07s08.html
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch08s08.html
 	 */
 	public static FlowDef efficientlyAggregate(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;

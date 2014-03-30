@@ -26,7 +26,7 @@ public class NonLinearDataflow {
 	 * partiesSource field(s) : "year","party"
 	 * sink field(s) : "president","party"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/html/ch03s03.html#N20650
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch03s03.html
 	 */
 	public static FlowDef cogroup(Tap<?, ?, ?> presidentsSource, Tap<?, ?, ?> partiesSource,
 			Tap<?, ?, ?> sink) {
@@ -44,7 +44,7 @@ public class NonLinearDataflow {
 	 * socialistSink field(s) : "president","party"
 	 * 
 	 * In a different context, one could use {@link TemplateTap} in order to arrive to a similar results.
-	 * @see http://docs.cascading.org/cascading/2.1/userguide/htmlsingle/#N214FF
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch08s07.html
 	 */
 	public static FlowDef split(Tap<?, ?, ?> source,
 			Tap<?, ?, ?> gaullistSink, Tap<?, ?, ?> republicanSink, Tap<?, ?, ?> socialistSink) {

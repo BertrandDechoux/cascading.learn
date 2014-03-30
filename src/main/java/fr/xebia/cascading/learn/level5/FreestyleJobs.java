@@ -64,7 +64,7 @@ public class FreestyleJobs {
 	 * @see http://en.wikipedia.org/wiki/tf-idf
 	 * 
 	 * If you are having issue applying functions, you might need to learn about field algebra
-	 * @see http://docs.cascading.org/cascading/1.2/userguide/html/ch03s04.html
+	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch03s07.html
 	 * 
 	 * {@link First} or {@link Max} can be useful for isolating the maximum.
 	 * 
