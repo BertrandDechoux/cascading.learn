@@ -8,7 +8,6 @@ import cascading.pipe.Pipe;
 import cascading.pipe.assembly.Discard;
 import cascading.pipe.joiner.InnerJoin;
 import cascading.tap.Tap;
-import cascading.tap.hadoop.TemplateTap;
 import cascading.tuple.Fields;
 
 /**
@@ -26,7 +25,7 @@ public class NonLinearDataflow {
 	 * partiesSource field(s) : "year","party"
 	 * sink field(s) : "president","party"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch03s03.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch05-pipe-assemblies.html#_cogroup
 	 */
 	public static FlowDef cogroup(Tap<?, ?, ?> presidentsSource, Tap<?, ?, ?> partiesSource,
 			Tap<?, ?, ?> sink) {
@@ -43,8 +42,8 @@ public class NonLinearDataflow {
 	 * republicanSink field(s) : "president","party"
 	 * socialistSink field(s) : "president","party"
 	 * 
-	 * In a different context, one could use {@link TemplateTap} in order to arrive to a similar results.
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch08s07.html
+	 * In a different context, one could use {@link PartitionTap} in order to arrive to a similar results.
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch15-advanced.html#partition-tap
 	 */
 	public static FlowDef split(Tap<?, ?, ?> source,
 			Tap<?, ?, ?> gaullistSink, Tap<?, ?, ?> republicanSink, Tap<?, ?, ?> socialistSink) {

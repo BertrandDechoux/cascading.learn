@@ -23,7 +23,7 @@ public class Mapping {
 	 * source field(s) : "line"
 	 * sink field(s) : "line"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch09s07.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch05-pipe-assemblies.html#each-every
 	 */
 	public static FlowDef filterWithExpression(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;
@@ -37,7 +37,7 @@ public class Mapping {
 	 * source field(s) : "line"
 	 * sink field(s) : "line"
 	 *
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch09s07.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch05-pipe-assemblies.html#each-every
 	 */
 	public static FlowDef transformWithExpression(Tap<?, ?, ?> source, Tap<?, ?, ?> sink) {
 		return null;
@@ -50,10 +50,10 @@ public class Mapping {
 	 * input field(s) : "line"
 	 * output field(s) : "word"
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch05s02.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch05-pipe-assemblies.html#each-every
 	 * 
 	 * Of course, for a real use case, regular expressions could be used with existent functions
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch09s06.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch16-operations.html#_regular_expression_operations
 	 */
 	public static FlowDef transformWithACustomFunction(Tap<?, ?, ?> source,
 			Tap<?, ?, ?> sink) {

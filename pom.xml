@@ -17,8 +17,9 @@
 	</scm>
 
 	<properties>
-		<maven.compiler.source>1.6</maven.compiler.source>
-		<maven.compiler.target>1.6</maven.compiler.target>
+		<!-- java 7 has reached end of life -->
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -45,18 +46,13 @@
 		<!-- real dependencies -->
 		<dependency>
 			<groupId>cascading</groupId>
-			<artifactId>cascading-core</artifactId>
-			<version>2.5.3</version>
-		</dependency>
-		<dependency>
-			<groupId>cascading</groupId>
 			<artifactId>cascading-hadoop</artifactId>
-			<version>2.5.3</version>
+			<version>3.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>cascading</groupId>
 			<artifactId>cascading-local</artifactId>
-			<version>2.5.3</version>
+			<version>3.0.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -66,8 +62,8 @@
 		<!-- provided -->
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-core</artifactId>
-			<version>1.2.1</version>
+			<artifactId>hadoop-client</artifactId>
+			<version>2.7.1</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>

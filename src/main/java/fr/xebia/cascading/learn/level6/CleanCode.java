@@ -14,7 +14,8 @@ public class CleanCode {
 	/**
 	 * The {@link Debug} is a pretty useful to understand the flow of data at a specific point.
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch09s02.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch16-operations.html#debug-function
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch18-best-practices.html#_debugging_streams
 	 */
 	public void experimentWithTheDebugFunction() {
 		throw new UnsupportedOperationException("Go back and try it on your own.");
@@ -23,8 +24,8 @@ public class CleanCode {
 	/**
 	 * {@link Assertion}s are also useful a concept, even in cascading.
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch08s02.html
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch09s09.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch15-advanced.html#stream-assertions
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch16-operations.html#_assertions
 	 */
 	public void experimentWithTheAssertions() {
 		throw new UnsupportedOperationException("Go back and try it on your own.");
@@ -36,7 +37,9 @@ public class CleanCode {
 	 * You already have been using them, look at the class hierarchy and 
 	 * the code of {@link Discard}.
 	 * 
-	 * @see http://docs.cascading.org/cascading/2.5/userguide/html/ch08.html
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch15-advanced.html#subassemblies
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch17-subassemblies.html#subassemblies
+	 * @see http://docs.cascading.org/cascading/3.0/userguide/ch18-best-practices.html#_subassemblies_not_factories
 	 */
 	public void experimentWithSubAssemblies() {
 		throw new UnsupportedOperationException("Go back and try it on your own.");
