@@ -24,7 +24,7 @@ public class FreestyleJobs {
 	 * Now, let's try a non trivial job : td-idf. Assume that each line is a
 	 * document.
 	 * 
-	 * source field(s) : "line"
+	 * source field(s) : "id","content"
 	 * sink field(s) : "docId","tfidf","word"
 	 * 
 	 * <pre>
